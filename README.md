@@ -163,5 +163,3 @@ PORT=7860
    ```
 
 ---
-
-**Note**: This project is actively maintained. Please create an issue for any bugs or feature requests.
