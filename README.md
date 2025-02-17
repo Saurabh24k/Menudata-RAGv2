@@ -7,7 +7,6 @@ A sophisticated Retrieval-Augmented Generation (RAG) chatbot that combines local
 
 Try it out: https://huggingface.co/spaces/Sau24k/Menudata-RAG
 
-![System Architecture]
 <img src="diagram/RAG.jpg" alt="System Architecture" width="800"/>
 
 ## Features ✨
@@ -42,7 +41,6 @@ Try it out: https://huggingface.co/spaces/Sau24k/Menudata-RAG
 
 ## System Flow Diagram 📊
 
-![System Architecture]
 <img src="diagram/RAG2.png" alt="System Flow Diagram" width="600"/>
 
 
