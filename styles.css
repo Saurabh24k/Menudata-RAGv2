@@ -1,0 +1,131 @@
+/* Base Styles */
+.feedback-btn {
+    min-width: 40px !important;
+    padding: 5px 10px !important;
+    margin: 0 5px !important;
+    background: none !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+.feedback-btn:hover {
+    transform: scale(1.1);
+    background: #f5f5f5 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.feedback-btn:first-child:hover {
+    border-color: #4CAF50 !important;
+    color: #4CAF50 !important;
+}
+
+.feedback-btn:last-child:hover {
+    border-color: #f44336 !important;
+    color: #f44336 !important;
+}
+
+#chatbot_section {
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.message {
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+}
+
+/* References Section */
+#references_section {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.source-card {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.source-content {
+    font-size: 0.9em;
+}
+
+.source-text {
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.source-link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 0.85em;
+    word-break: break-all;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+.references-placeholder {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Feedback Container */
+.feedback-container {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.message:hover .feedback-container {
+    opacity: 1;
+}
+
+#good_feedback, #bad_feedback {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#good_feedback:hover {
+    transform: scale(1.2);
+    color: #4CAF50;
+}
+
+#bad_feedback:hover {
+    transform: scale(1.2);
+    color: #f44336;
+}
+
+/* Layout Adjustments */
+#input_section {
+    max-width: 700px;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+#suggestion_section {
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+

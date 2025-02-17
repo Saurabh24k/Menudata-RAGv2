@@ -1,0 +1,31 @@
+# -------------------------
+# Python cache & compiled files
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# -------------------------
+# macOS Finder files
+# -------------------------
+.DS_Store
+__MACOSX/
+
+
+# -------------------------
+# Node modules
+# -------------------------
+node_modules/
+frontend/node_modules/
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+
+# -------------------------
+# Local data or Chroma DB if you don't want them in git
+# -------------------------
+chroma_db/
+data/
+*.zip
